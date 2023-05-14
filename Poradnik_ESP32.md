@@ -31,10 +31,11 @@ i naciśnij przycisk OK
 1. Wchodzimy w Narzędzia> Płytka > ESP32 Arduino > ESP32 WROOMDAMODULE
 ![choose-board](./choose-board.jpg)
 
-2. Teraz możemy podłączyć płytke do tylnego portu USB komputera, a końcówke microUSB do portu mikrokontrolera. Niestety w pocznym porcie USB nam nie zadziała. 
+2. Teraz możemy podłączyć płytke do tylnego portu USB komputera, a końcówke microUSB do portu mikrokontrolera. Niestety w bocznym porcie USB nam nie zadziała. 
 ![computer-layout](./comp.jpg)
 
 3. Wybieramy Narzedzia> Port> COM4 (tylny lewy port)
+
 ![port](./port.jpg)
 
 4. Żeby zweryfikować połączenie ładujemy przykładowy skrypt Blink który Plik> Przykłady> 01.Basic> Blink
@@ -43,3 +44,7 @@ i naciśnij przycisk OK
 ```
 int LED_BUILTIN = 2; 
 ```
+UWAGA!
+Podczas ładowania skryptu musimy trzymać przycisk BOOT na kontrolerze
+
+6. Jeśli szystko zrobiliśmy poprawnie wbudowana dioda led na kontrolerze powinna zacząć migać. ENJOY!
